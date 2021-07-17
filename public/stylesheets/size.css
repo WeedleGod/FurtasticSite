@@ -1,0 +1,12 @@
+@media (max-width: 615px) {
+  .page-wrapper .navbar {
+    flex-direction: column;
+    height: 100%;
+  }
+  .page-wrapper .navbar .navbar-link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+/*# sourceMappingURL=size.css.map */

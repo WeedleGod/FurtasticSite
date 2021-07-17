@@ -1,3 +1,38 @@
-h1 {
-    color: red;
+@import "./variables.scss";
+@import "./size.scss";
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: auto;
+}
+
+.page-wrapper {
+  height: 100vw;
+  width: 100vw;
+
+  .navbar {
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    background-color: $pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navbar-link {
+      padding: 0px 20px;
+
+      a {
+        text-decoration: none;
+        color: $link-color;
+      }
+    }
+  }
 }
