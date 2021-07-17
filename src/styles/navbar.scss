@@ -1,0 +1,24 @@
+.navbar {
+  height: 150px;
+  margin: 0px;
+  padding: 0px;
+  background-color: $pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .navbar-link {
+    padding: 0px 20px;
+
+    img {
+      border-radius: 50%;
+      height: 75px;
+      width: 75px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $link-color;
+    }
+  }
+}

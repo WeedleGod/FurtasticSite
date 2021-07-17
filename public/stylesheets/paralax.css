@@ -1,0 +1,11 @@
+.content-wrapper {
+  background-image: url("https://media.discordapp.net/attachments/557015926705356800/865072329968189480/image5.png");
+  padding: 100px;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=paralax.css.map */
