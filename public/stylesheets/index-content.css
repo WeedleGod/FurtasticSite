@@ -1,7 +1,7 @@
 /* Error: Undefined variable.
  *   ,
- * 6 |     background-color: $third;
- *   |                       ^^^^^^
+ * 6 |     background-color: $fourth;
+ *   |                       ^^^^^^^
  *   '
  *   src/styles/index-content.scss 6:23  root stylesheet */
 
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      background-color: $third;\a   \2502                        ^^^^^^\a   \2575 \a   src/styles/index-content.scss 6:23  root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      background-color: $fourth;\a   \2502                        ^^^^^^^\a   \2575 \a   src/styles/index-content.scss 6:23  root stylesheet";
 }

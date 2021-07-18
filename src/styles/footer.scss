@@ -1,7 +1,7 @@
 .footer {
   height: 200px;
   width: 100%;
-  background-color: $fourth;
+  background-color: $primary;
   .logo {
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
   }
   a {
     text-decoration: none;
-    color: $third;
+    color: $seventh;
   }
 
   .nav-link {
@@ -32,7 +32,7 @@
     .web-hook {
       padding: 0px 25px;
       padding-top: 25px;
-      color: $primary;
+      color: $seventh;
       font-size: 2rem;
     }
   }

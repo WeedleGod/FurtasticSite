@@ -3,20 +3,21 @@
   width: 100vw;
 
   .page-content-wrapper {
-    background-color: $third;
+    background-color: $fourth;
 
     p {
       padding: 0px 40px;
       margin: 0px;
       font-size: 20px;
       padding-bottom: 15px;
+      color: black;
     }
 
     h1 {
       display: flex;
       justify-content: center;
       font-size: 50px;
-      color: $fourth;
+      color: $seventh;
     }
   }
 }

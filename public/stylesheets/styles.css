@@ -29,7 +29,7 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
   height: 150px;
   margin: 0px;
   padding: 0px;
-  background-color: pink;
+  background-color: #f7bfbc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
 }
 .navbar .navbar-link a {
   text-decoration: none;
-  color: aqua;
+  color: #fef2f2;
 }
 
 .page-wrapper {
@@ -52,25 +52,26 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
   width: 100vw;
 }
 .page-wrapper .page-content-wrapper {
-  background-color: lightpink;
+  background-color: #ddbdcf;
 }
 .page-wrapper .page-content-wrapper p {
   padding: 0px 40px;
   margin: 0px;
   font-size: 20px;
   padding-bottom: 15px;
+  color: black;
 }
 .page-wrapper .page-content-wrapper h1 {
   display: flex;
   justify-content: center;
   font-size: 50px;
-  color: lightskyblue;
+  color: #fef2f2;
 }
 
 .footer {
   height: 200px;
   width: 100%;
-  background-color: lightskyblue;
+  background-color: #f7bfbc;
 }
 .footer .logo {
   display: flex;
@@ -85,7 +86,7 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
 }
 .footer a {
   text-decoration: none;
-  color: lightpink;
+  color: #fef2f2;
 }
 .footer .nav-link {
   display: flex;
@@ -101,7 +102,7 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
 .footer .hooks .web-hook {
   padding: 0px 25px;
   padding-top: 25px;
-  color: pink;
+  color: #fef2f2;
   font-size: 2rem;
 }
 
