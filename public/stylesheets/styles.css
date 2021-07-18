@@ -47,6 +47,37 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
   color: #fef2f2;
 }
 
+.discord-invite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.discord-invite a {
+  text-decoration: none;
+}
+.discord-invite a button {
+  font-family: discord, sans-serif;
+  padding: 13px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #7289da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+@font-face {
+  .discord-invite a button {
+    font-family: discord;
+    src: url("https://www.myfonts.com/fonts/font-fabric/uni-sans/");
+  }
+}
+.discord-invite a button i {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
 .page-wrapper {
   height: 100vw;
   width: 100vw;
