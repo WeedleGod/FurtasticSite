@@ -1,8 +1,8 @@
-.navbar {
+.navbar{
   height: 150px;
   margin: 0px;
   padding: 0px;
-  background-color: $pink;
+  background-color: $primary;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
 
     a {
       text-decoration: none;
-      color: $link-color;
+      color: $secondary;
     }
   }
 }

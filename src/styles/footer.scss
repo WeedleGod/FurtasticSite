@@ -1,0 +1,39 @@
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: $fourth;
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    img {
+      border-radius: 50%;
+      height: 75px;
+      width: 75px;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $third;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: center;
+
+    .footer-link {
+      padding: 0px 20px;
+    }
+  }
+  .hooks {
+    display: flex;
+    justify-content: center;
+    .web-hook {
+      padding: 0px 25px;
+      padding-top: 25px;
+      color: $primary;
+      font-size: 2rem;
+    }
+  }
+}

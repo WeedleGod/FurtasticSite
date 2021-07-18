@@ -10,10 +10,15 @@ body {
   overflow: auto;
 }
 
-.content-wrapper {
+p, h1, h2, h3, h4, h5, h6, h7, h8 {
+  margin: 0;
+  padding: 0;
+}
+
+.parallax-wrapper {
   background-image: url("https://media.discordapp.net/attachments/557015926705356800/865072329968189480/image5.png");
   padding: 100px;
-  height: 300px;
+  height: 250px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,13 +51,82 @@ body {
   height: 100vw;
   width: 100vw;
 }
+.page-wrapper .page-content-wrapper {
+  background-color: lightpink;
+}
+.page-wrapper .page-content-wrapper p {
+  padding: 0px 40px;
+  margin: 0px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.page-wrapper .page-content-wrapper h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: lightskyblue;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: lightskyblue;
+}
+.footer .logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.footer .logo img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+.footer a {
+  text-decoration: none;
+  color: lightpink;
+}
+.footer .nav-link {
+  display: flex;
+  justify-content: center;
+}
+.footer .nav-link .footer-link {
+  padding: 0px 20px;
+}
+.footer .hooks {
+  display: flex;
+  justify-content: center;
+}
+.footer .hooks .web-hook {
+  padding: 0px 25px;
+  padding-top: 25px;
+  color: pink;
+  font-size: 2rem;
+}
 
 @media (max-width: 615px) {
   .page-wrapper .navbar {
     flex-direction: column;
-    height: 200px;
+    height: 250px;
   }
   .page-wrapper .navbar .navbar-link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .page-wrapper .page-content-wrapper p {
+    padding: 10px;
+  }
+  .page-wrapper .footer {
+    height: 300px;
+  }
+  .page-wrapper .footer .nav-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .page-wrapper .footer .nav-link .footer-link {
     margin-top: 5px;
     margin-bottom: 5px;
   }

@@ -1,9 +1,25 @@
 @media (max-width: 615px) {
   .page-wrapper .navbar {
     flex-direction: column;
-    height: 200px;
+    height: 250px;
   }
   .page-wrapper .navbar .navbar-link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .page-wrapper .page-content-wrapper p {
+    padding: 10px;
+  }
+  .page-wrapper .footer {
+    height: 300px;
+  }
+  .page-wrapper .footer .nav-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .page-wrapper .footer .nav-link .footer-link {
     margin-top: 5px;
     margin-bottom: 5px;
   }
