@@ -1,0 +1,23 @@
+.faq-page-wrapper {
+  .faq-page-content {
+    padding: 30px;
+    background-color: $fourth;
+
+    .center-page {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 7px;
+    }
+    
+    .list {
+        padding-left: none;
+    }
+
+    p {
+        font-size: 20px;
+    }
+    li {
+        font-size: 20px;
+    }
+  }
+}

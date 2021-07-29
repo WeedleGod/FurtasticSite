@@ -157,6 +157,36 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
   padding: 30px;
   background-color: #ddbdcf;
 }
+.commands-content-wrapper h1 {
+  display: flex;
+  justify-content: center;
+}
+.commands-content-wrapper .center-wrapper .center-page {
+  padding: 5px 0px;
+  font-size: 25px;
+}
+.commands-content-wrapper .center-wrapper .center-page .bold {
+  font-weight: bolder;
+}
+
+.faq-page-wrapper .faq-page-content {
+  padding: 30px;
+  background-color: #ddbdcf;
+}
+.faq-page-wrapper .faq-page-content .center-page {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7px;
+}
+.faq-page-wrapper .faq-page-content .list {
+  padding-left: none;
+}
+.faq-page-wrapper .faq-page-content p {
+  font-size: 20px;
+}
+.faq-page-wrapper .faq-page-content li {
+  font-size: 20px;
+}
 
 @media (max-width: 615px) {
   .page-wrapper .navbar {
