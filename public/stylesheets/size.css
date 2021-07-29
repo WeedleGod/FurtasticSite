@@ -1,28 +1,17 @@
-@media (max-width: 615px) {
-  .page-wrapper .navbar {
-    flex-direction: column;
-    height: 250px;
-  }
-  .page-wrapper .navbar .navbar-link {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  .page-wrapper .page-content-wrapper p {
-    padding: 10px;
-  }
-  .page-wrapper .footer {
-    height: 300px;
-  }
-  .page-wrapper .footer .nav-link {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .page-wrapper .footer .nav-link .footer-link {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-}
+/* Error: Undefined variable.
+ *    ,
+ * 39 |     background-color: $fourth;
+ *    |                       ^^^^^^^
+ *    '
+ *   src/styles/size.scss 39:23  root stylesheet */
 
-/*# sourceMappingURL=size.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 39 \2502      background-color: $fourth;\a    \2502                        ^^^^^^^\a    \2575 \a   src/styles/size.scss 39:23  root stylesheet";
+}

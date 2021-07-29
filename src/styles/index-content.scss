@@ -1,5 +1,5 @@
 .page-wrapper {
-  height: 100vw;
+  height: 100%;
   width: 100vw;
 
   .page-content-wrapper {
@@ -11,6 +11,11 @@
       font-size: 20px;
       padding-bottom: 15px;
       color: black;
+
+      .heading {
+        font-size: 30px;
+        font-weight: 900;
+      }
     }
 
     h1 {

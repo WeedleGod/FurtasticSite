@@ -79,7 +79,7 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
 }
 
 .page-wrapper {
-  height: 100vw;
+  height: 100%;
   width: 100vw;
 }
 .page-wrapper .page-content-wrapper {
@@ -91,6 +91,10 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
   font-size: 20px;
   padding-bottom: 15px;
   color: black;
+}
+.page-wrapper .page-content-wrapper p .heading {
+  font-size: 30px;
+  font-weight: 900;
 }
 .page-wrapper .page-content-wrapper h1 {
   display: flex;
@@ -137,6 +141,23 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
   font-size: 2rem;
 }
 
+.gallery-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 42px;
+  background-color: #ddbdcf;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.commands-content-wrapper {
+  padding: 30px;
+  background-color: #ddbdcf;
+}
+
 @media (max-width: 615px) {
   .page-wrapper .navbar {
     flex-direction: column;
@@ -161,6 +182,18 @@ p, h1, h2, h3, h4, h5, h6, h7, h8 {
   .page-wrapper .footer .nav-link .footer-link {
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+
+  .gallery-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 24px;
+    background-color: #ddbdcf;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
   }
 }
 
